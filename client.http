@@ -38,9 +38,9 @@ GET {{baseUrl}}/rooms/{{roomId}}/questions
 # Create question
 # @name createQuestion
 
-POST {{baseUrl}}/rooms/{{roomId}}/questions
+POST {{baseUrl}}/rooms/68be48b9-5263-419e-ae07-37d3511d6172/questions
 Content-Type: application/json
 
 {
-  "question": "Qual o conceito de X dentro de Y?"
+  "question": "O que é React?"
 }
